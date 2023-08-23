@@ -11,7 +11,6 @@ host_ip = sys.argv[1]
 port = int(sys.argv[2])
 
 server_socket.bind((host_ip, port))
-
 server_socket.listen(5)
 print("Listening for incoming connections at {}:{}".format(host_ip, port))
 
