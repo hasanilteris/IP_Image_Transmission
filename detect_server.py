@@ -15,7 +15,6 @@ server_socket.listen(5)
 print("Listening for incoming connections at {}:{}".format(host_ip, port))
 
 while True:
-    
     client_socket, addr = server_socket.accept()
     print("Got a connection from {}".format(addr))
 
