@@ -5,6 +5,7 @@ import struct
 import imutils
 import sys
 
+
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 host_ip = sys.argv[1]
