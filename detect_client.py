@@ -2,7 +2,6 @@ import socket,cv2, pickle,struct, sys
 import torch
 import cv2
 
-
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 host_ip =  sys.argv[1] #'192.168.0.178'
 port = 5600
